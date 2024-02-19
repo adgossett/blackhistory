@@ -1,0 +1,166 @@
+/*-- Color Scheme  --*/
+
+.double-bounce1,
+.double-bounce2 {
+    background-color: red;
+    ;
+}
+
+.btn.btn-blue {
+    background: red!important;
+    border-color:red !important;
+}
+
+nav.navbar .navbar-nav>li.active>a,
+nav.navbar.bootsnav ul.nav>li.active>a,
+header nav.navbar .navbar-nav>li.active>a,
+nav.navbar.bootsnav ul.nav>li.active>a,
+header.header-appear nav.bootsnav.header-light-transparent .navbar-nav>li.active>a {
+    color:red;
+}
+
+.dot1,
+.dot2 {
+    background-color: red;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: red;
+    text-decoration: none;
+}
+
+.btn.btn-blue:hover,
+.btn.btn-blue:focus {
+    background: transparent !important;
+    border-color:red;
+    color: red !important;
+}
+
+.nav_line li a:before,
+.bg-blue,
+.pushmenu,
+#services-slider .service-box,
+.play-icon,
+.circle-navbar li a:before,
+.mfp-bg {
+    background: red;
+}
+
+.text-blue {
+    color: red;
+}
+
+header nav.navbar .navbar-nav>li>a:hover,
+nav.navbar.bootsnav ul.nav>li>a:hover,
+.header-search-form:hover {
+    color: red;
+}
+
+.btn.btn-transparent-blue,
+.price-item:hover .btn.btn-transparent-dark-gray {
+    border-color: red;
+    color: red;
+}
+
+.btn.btn-transparent-blue:hover,
+.price-item .btn.btn-transparent-dark-gray:hover {
+    background:red;
+    border-color: red !important;
+}
+
+.portfolio .filtering .active {
+    color: red;
+    border: 1px solid red;
+}
+
+.price-item:hover .price-header,
+.price-center .price-header {
+    border-color: red;
+    color: #fff;
+}
+
+.play-hvr:hover {
+    border: 4px solid black;
+}
+
+.price-item.center {
+    border: 2px solid red;
+    background:red;
+}
+
+.btn.btn-hvr-white:hover,
+.btn.btn-hvr-white:focus {
+    background: #fff !important;
+    border-color: #fff !important;
+    color: #0b0b0b !important;
+}
+
+.how-box-one:hover .icon-box {
+    -webkit-box-shadow: 0 0 0 0 rgb(203, 52, 43);
+    box-shadow: 0 0 0 0 rgb(203, 52, 43);
+
+}
+
+@-webkit-keyframes itg_pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 5px rgba(203, 52, 43, 0.9);
+        box-shadow: 0 0 0 5px rgba(203, 52, 43, 0.9);
+    }
+
+    25% {
+        -webkit-box-shadow: 0 0 0 10px rgba(203, 52, 43, 0.6);
+        box-shadow: 0 0 0 10px rgba(203, 52, 43, 0.6);
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 15px rgba(203, 52, 43, 0.3);
+        box-shadow: 0 0 0 15px rgba(203, 52, 43, 0.3);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 60px rgba(100, 48, 148, 0.1);
+        box-shadow: 0 0 0 20px rgba(100, 48, 148, 0.1);
+    }
+}
+
+@-o-keyframes itg_pulse {
+    0% {
+        box-shadow: 0 0 0 5px rgba(203, 52, 43, 0.9);
+    }
+
+    25% {
+        box-shadow: 0 0 0 10px rgba(203, 52, 43, 0.6);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgba(203, 52, 43, 0.3);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(203, 52, 43, 0.1);
+    }
+}
+
+@keyframes itg_pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 5px rgba(203, 52, 43, 0.9);
+        box-shadow: 0 0 0 5px rgba(203, 52, 43, 0.9);
+    }
+
+    25% {
+        -webkit-box-shadow: 0 0 0 10px rgba(203, 52, 43, 0.6);
+        box-shadow: 0 0 0 10px rgba(203, 52, 43, 0.6);
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 15px rgba(203, 52, 43, 0.3);
+        box-shadow: 0 0 0 15px rgba(203, 52, 43, 0.3);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 60px rgba(203, 52, 43, 0.1);
+        box-shadow: 0 0 0 20px rgba(203, 52, 43, 0.1);
+    }
+}
